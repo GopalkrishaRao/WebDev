@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(180deg,#20BDFF, #A5FECB );
+    background-repeat: none;
+    
+}
+.hall{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.button>button{
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    background: #283278;
+    border: none;
+}
+
+.button>button>a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+
+.button:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transform: 0.3s;
+}

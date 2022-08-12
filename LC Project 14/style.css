@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&family=Oswald:wght@200;700&family=Roboto:wght@300;400;500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+
+}
+
+body{
+    display: flex;
+    
+}
+
+.body-left{
+    width: 30%; 
+} 
+
+.body-left img:nth-of-type(1){
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 30px;
+}
+
+.body-left img:nth-of-type(2){
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.body-right{
+    /* background: pink; */
+    width: 70%;
+}
+
+nav{
+    margin-top: 30px;
+    margin-right: 5%;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+}
+
+.line{
+    width: 200px;
+    border-bottom: 2px solid;
+    margin-left: 50px;
+}
+
+.bodybox{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5% 20px 5%;
+    flex-grow: 1;
+}
+
+.body3socila{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.chekbox{
+    display: flex;
+    flex-grow: 1;
+    margin: 10px 5% 10px 5%; 
+}
+
+.chekbox button{
+    margin-left: auto;
+    padding: 10px 25px;
+    background: #1f1f1f;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+.body1 div {
+    font-family: "Roboto";
+    font-size: 80px;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 3px;
+
+}
+
+.body1{
+    margin-right: 50px;
+}
+
+.body1 div:nth-of-type(2){
+    color: #1f1f1f;
+    margin-left: 120px;
+}
+
+.body2{
+    align-self: flex-end;
+    font-size: 25px;
+    margin-right: auto;
+}
+
+.servicelist{
+    display: flex;
+    margin: 50px 5% 50px 5%;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+
+.serdetails div img{
+    height: 300px;
+}
+
+.servicelist div ul{
+    display: flex;
+    flex-direction: column;
+    width: 130px;  
+    gap: 40px;
+}
+
+.serdetails{
+    width: 90%;
+
+}
+
+.fa-quote-right{
+    font-size: 40px;
+}
+
+.serdetails div h3{
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

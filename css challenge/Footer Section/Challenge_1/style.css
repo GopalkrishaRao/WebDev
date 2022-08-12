@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500;900&family=Oswald:wght@200;700&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+*{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: "Montserrat";
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fff;
+}
+
+.footer{
+    margin-top: 40vh;
+}
+
+.heading{
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+
+.content{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.services, .social-media, .links, .details {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;    
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 25PX 0 25PX 0;
+    border-top: 2PX solid black;
+
+    }

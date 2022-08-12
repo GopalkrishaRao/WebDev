@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+*{
+    font-family:"Indie Flower" ;
+}
+body table{
+    background: rgb(135, 235, 227);
+}
+
+
+#myTable>caption{
+    display: none;
+}
+
+
+#myTitle{
+  
+}
+
+#myTable tr th{
+    border: 2px solid white;
+}
+
+#myTable tr th td{
+    border: 2px solid white;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}

@@ -1,0 +1,153 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: "Allerta";
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 8% 10px 8%;
+    flex-wrap: wrap;
+  }
+
+#navFirst img{
+    font-size: 20px;
+    justify-self: flex-start;
+    cursor: pointer;
+}
+
+
+#navMid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: auto;
+}
+
+#navMid h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+ #navMid h4:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+#navEnd{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+
+#navEnd img:hover{
+transform: scale(1.5);
+cursor: pointer;
+transition: 0.3s;
+}
+
+#midWhole{
+    display: flex;
+    height: 80vh;
+    margin-left: 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0.6;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#monstera{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+#midWholePart11 div ul li:nth-of-type(3), #midWholePart11 div ul li:nth-of-type(4) {
+    font-size: 15px;
+}
+ 
+#midWholePart121{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgb(2, 99, 2);
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    height: 20px;
+}
+
+#midWholePart121 div h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+#midWholePart121 div img{
+    height: 15px;
+}
+
+
+#midWholePart121:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(116, 110, 110);
+    transition: 0.3s;
+    opacity: 80%;
+}
+
+#midWholePart13{
+    display: flex;
+    gap: 5px;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.midWholePart13Parts div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.midWholePart13Parts div:nth-of-type(2) >h4{
+    margin: 0;
+}
+
+.midWholePart13Parts div:nth-of-type(2) >p{
+     margin: 0;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#imgMain{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80vh;
+}
+
+
+
+
+
+
+ 

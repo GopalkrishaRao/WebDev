@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500;900&family=Oswald:wght@200;700&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   bottom: 0%;
+   font-family: "Roboto";
+}
+
+body{
+   background: #b9b1b1;
+}
+.content{
+   background: #233c7b;
+}
+
+
+ .top{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 40vh;
+   margin-bottom: 2%;
+   padding-bottom: 25px;
+    border-bottom: 3px solid #fff;
+    height: 10vh;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 2%;
+ }
+
+ .logo-details{
+   display: flex;
+   margin-left: 5%;
+   color: #fff;
+   cursor: pointer;
+ }
+
+ .logo_name{
+   padding-top: 15px;
+   font-weight: 600;
+ }
+
+
+ .media-icons{
+   margin-right: 5%;
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+ }
+
+
+ .media-icons .fab:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+ }
+
+ .fab{
+   border-radius: 50%;
+   padding: 15px;
+   width: 30%;
+   height: 30%;
+ }
+
+ .fa-facebook-f{
+   color: #fff;
+   background:#4867aa ;
+ }
+
+.fa-twitter{
+   color: #fff;
+   background: #1da1f2;
+}
+
+.fa-instagram{
+   color: #fff;
+   background: rgb(226, 24, 176);
+}
+
+.fa-linkedin-in{
+   color: #fff;
+   background: #0077b5;
+}
+
+.fa-youtube{
+   color: #fff;
+   background:#fe0000 ;
+}
+
+ .link-boxes{  
+      display: flex;
+      justify-content: space-between;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin: bottom;
+      padding-bottom: 5%;
+ }
+
+ .box{
+   padding: 0;
+ 
+ }
+
+ .link-boxes ul li{
+    list-style-type: none;
+    color: #fff;
+ }
+
+
+.link-boxes ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.link_name{
+   font-size: 20px !important;
+   font-weight: 600;
+}
+.link_name::after{
+   content: '';
+   background: #fff;
+   display: block;
+   width: 3ex;
+   height: 2px;
+}
+
+
+.input-box li:nth-child(2)>input{
+   margin-top: 5px;
+   background: #233c7b;
+   border: 2px solid #fff;
+   font-weight: 700;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   border-radius: 3px;
+}
+.input-box li:nth-child(2)>input::placeholder {
+   color: #fff;
+   opacity: 1;
+ }
+
+ .input-box li:nth-child(3)>input{
+   margin-top: 5px;
+   background: #fff;
+   border: none;
+   font-weight: 700;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 100%;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.input-box li:nth-child(3)>input:hover{
+   box-shadow: 5px 5px 5px #b9b1b1;
+}
+
+.bottom-details{
+   background: #042261;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.bottom_text{
+   display: flex;
+   margin-left: 5%;
+   margin-right: 5%;
+   justify-content: space-between;
+
+}
+
+.bottom_text span a{
+   text-decoration: none;
+   color: #fff;
+}
+ 
+.bottom_text span{
+   color: #fff;
+}
+
+ .box>li{
+   margin-top: 10px;
+ }

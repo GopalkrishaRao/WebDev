@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+*{
+    font-family: "Sansita";
+
+}
+    
+body{
+    background: linear-gradient(90deg, #00c3ffd2 0%,#ffff1cd5 100%);
+
+
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left:50% ;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 15px;
+    padding: 60px 30px;
+}
+
+.inputbox::placeholder {
+    content: 'placeholder';
+  
+    
+}

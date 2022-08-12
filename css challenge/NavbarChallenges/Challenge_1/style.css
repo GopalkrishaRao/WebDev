@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 10px;
+    justify-content: space-around;
+    
+}
+
+.nav-item{
+    padding: 15px 20px;
+}
+
+nav a{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(180, 171, 171);
+}
+
+.nav-item:hover{
+    color: rgb(16, 214, 198);
+}

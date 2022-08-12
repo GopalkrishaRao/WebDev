@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;300;400;500;600;800&family=Oswald:wght@200;700&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+body{
+    background-image: url(../images/pexels-huseyn-kamaladdin-667838\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 5% 40px 5%;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.uline::after{
+    content: "";
+    background: #fff;
+    display: block;
+    height: 4PX;
+    margin-top: 30px;
+}
+
+
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+.uline::after{
+    /* position: absolute;
+    bottom: -25px;
+    right: -1px;
+    content: "";
+    height: 2px;
+    border-bottom: 2px solid #fff;
+    width: 100%;  */
+}
+
+.call{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.phoneicon{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cont-det{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0;
+}
+
+.cont-det h4{
+    font-weight: 500 !important;
+
+}
+
+.bodysec{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    float: left;
+}
+
+.puzzel, .bulb{
+    display: inline-block;
+    background: #fff;
+    font-size: 25px;
+    padding: 5px 25px ;
+    border-radius: 25px;
+}
+
+.pcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #cececec2;
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-top: 40px;
+}
+
+.pcontainer>*{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.pcontainer h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;            
+}
+
+
+
+
+.button{
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 800;
+    float: left;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #1f1f1f;
+    transition: 0.3s;
+    opacity: 80%;
+}
+
+
+
+.bulbcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #cececec2;
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-right: 200px;
+}
+
+.bulbcontainer>*{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.bulbcontainer h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -5,26 +5,30 @@
 }
 body table{
     background: rgb(135, 235, 227);
+    flex-grow: 1;
 }
-
 
 #myTable>caption{
-    display: none;
-}
-
-
-#myTitle{
-  
-}
-
-#myTable tr th{
-    border: 2px solid white;
-}
-
-#myTable tr th td{
-    border: 2px solid white;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 100px;
 }
 
 table, th, td{
     border-collapse: collapse;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: 800;
+}
+
+table tr:nth-of-type(2), table tr:nth-of-type(1){
+    color: rgb(252, 7, 7);
+}
+
+table tr th:nth-of-type(1){
+    color: rgb(252, 7, 7);
+}
+
+table tr:nth-of-type(3) td:nth-of-type(3){
+    background:rgb(204, 139, 224);
 }

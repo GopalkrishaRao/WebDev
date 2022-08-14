@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&family=Oswald:wght@200;700&family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body{
+    background-image: url("./images/backimg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.box-root> h1{
+    text-align: center;
+}
+
+.box-root h1 a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #5469d4;
+}
+
+.formbg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.formbg-inner{
+    border: 2px solid #1f1f1f1f;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: rgb(253, 252, 252);
+    box-shadow: 2px 2px 2px rgb(248, 243, 243);
+}
+
+.formbg-inner span{
+    font-size: 18px;
+}
+
+.field>label  {
+    font-size: 15px;
+    color: #1f1f1f;
+    font-weight: 500;
+    display: block;
+}
+
+.field>div>label{
+    font-size: 15px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.field>input{
+    width: 300px;
+    padding: 12px;
+}
+
+#stripe-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid--50-50{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset-pass>a{
+    text-decoration: none;
+    color: #5469d4;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ssolink{
+    text-decoration: none;
+    color: #5469d4;
+    font-weight: 500;
+}
+
+form div:nth-of-type(4)>input{
+    background: #5469d4;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.footer-link span a{
+    color: #5469d4;
+    text-decoration: none;
+}
+
+.listing{
+    display: flex;
+    gap: 20px;
+}
+
+.listing> span> a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+

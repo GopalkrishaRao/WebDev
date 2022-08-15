@@ -8,10 +8,11 @@
 ![responsive](./screenshots/Responive.JPG)
 ***
 
-## - [Netlify]() -deployed link
-## -  [FindCoder.io]() -Profile 
+## - [Netlify](https://lcproject7.netlify.app/) -deployed link
 
 ## -  [Github](https://github.com/GopalkrishaRao/WebDev/tree/main/LC%20Project%207) Source code
+
+## -  [FindCoder.io](https://www.findcoder.io/u/hrgkrao) -Profile 
 
 ## -Approximate time taken to complete projct **6 hours!**
 
@@ -19,6 +20,8 @@
 
 -   position property
 -   media query
+-   flex-wrap
+
 
 
 

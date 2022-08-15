@@ -28,9 +28,18 @@ body div nav img:hover{
 
 .nav-items{
     display: flex;
-    gap: 20px;
     color: #155ee6;
+    flex-grow: 1;
 }
+
+.nav-cent{
+    display: flex;
+    gap: 40PX;
+    align-items: center;
+    margin-inline: auto;
+}
+
+
 
 .nav-item:hover{
     transform: scale(1.1);
@@ -45,7 +54,6 @@ body div nav img:hover{
     border: none;
     color: #ffffff;
     background: linear-gradient(90deg, #22a4f0, #f35bb9);
-
 }
 
 .signin-btn:hover{
@@ -55,11 +63,22 @@ body div nav img:hover{
     transition: 0.3s;
 }
 
+.hamberger{
+    display: none;
+}
+
+.fa-bars{
+    font-size: 25px;
+    color: #155ee6;
+    cursor: pointer;
+}
+
 .intro-section{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .left-section{
@@ -90,7 +109,6 @@ body div nav img:hover{
     border: none;
     color: #ffffff;
     background: linear-gradient(90deg, #22a4f0, #f35bb9);
-
 }
 
 .learn-more-btn:hover{
@@ -99,7 +117,6 @@ body div nav img:hover{
     box-shadow: 5px 5px 5px rgb(189, 179, 179);
     transition: 0.3s;
 }
-
 
 .imgs-div{
     margin-top: 0;
@@ -125,4 +142,43 @@ body div nav img:hover{
 
 .screen img{
     height: 600px;
+}
+
+
+
+@media screen and (max-width: 1230px) {
+    .nav-items{
+        display: none;
+    }
+
+    .fa-bars, .hamberger{
+        display: block ;
+        margin-left: auto;
+    }
+
+    .intro-section{
+        justify-content: center;
+    }
+
+    .left-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .vectorset{
+        display: none;
+    }
+
+    .screen>img{
+        position: relative;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .imgs-div{
+        display: none;
+    }
 }

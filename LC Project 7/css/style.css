@@ -10,7 +10,20 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     margin: 10px 5% 10px 5%;
+    flex-grow: 1;
 }
+
+nav .nav-menu-icon{
+    display: none;
+    font-size: 25px;
+  }
+ 
+  nav .nav-menu-icon:hover{
+    background: black;
+    color: #fff;
+    padding: 5px 10px;
+    transition: 0.5s;
+  }
 
 nav>img{
     height: 40px;
@@ -20,11 +33,21 @@ nav>img:hover{
     cursor: pointer;
 }
 
+.nav-group{
+    display: flex;
+    margin: auto;
+    gap: 50px;
+}
 .nav-items{
     display: flex;
     font-size: 25px;
     gap: 40px;
+    align-items: center;
+    flex-grow: 1;
+}
 
+.nav-items>img{
+    cursor: pointer;
 }
 
 .nav-item{
@@ -48,6 +71,8 @@ nav>img:hover{
     gap: 50px;
     margin-left: 5%;
     align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .left-section{
@@ -206,3 +231,40 @@ nav>img:hover{
     font-size: 20px;
 }
 
+
+@media screen and (max-width: 1230px) {
+  
+    nav .nav-items {
+      display: none;
+    }
+
+    nav .nav-menu-icon {
+      display: block;
+      margin-left: auto;
+      cursor: pointer;
+    }
+
+    .intro-section{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left-section{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 710px){
+   
+    .left-section h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .left-section> .action-btns{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}

@@ -2,7 +2,7 @@
 # **Gopalkrishna Rao**
 
 
-## Live class projce-2
+## Live class projcet-2
 ![preview](./Screenshot/Capture.JPG)
 ***
 

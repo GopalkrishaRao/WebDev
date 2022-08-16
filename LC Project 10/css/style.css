@@ -40,27 +40,14 @@ nav{
     margin-top: 30px;
 }
 
-
-
 .nav-item a {
     text-decoration: none;
     color: #fff;
     font-weight: 600;
 }
 
-
 .nav-item:hover{
     cursor: pointer;
-}
-
-.uline::after{
-    /* position: absolute;
-    bottom: -25px;
-    right: -1px;
-    content: "";
-    height: 2px;
-    border-bottom: 2px solid #fff;
-    width: 100%;  */
 }
 
 .call{
@@ -89,6 +76,16 @@ nav{
 
 }
 
+.hamberger{
+    display: none;
+}
+
+.fa-bars{
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
 .bodysec{
     margin-left: 10%;
     margin-right: 10%;
@@ -100,7 +97,7 @@ nav{
     color: #fff;
     letter-spacing: 1px;
     font-size: 25px;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 80px;
     float: left;
 }
@@ -135,15 +132,13 @@ nav{
     font-size: 20px;            
 }
 
-
-
-
 .button{
-    padding: 10px 25px;
+    padding: 15px 35px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 4px solid #fff;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 35px;
+    font-size: 20px;
     font-weight: 800;
     float: left;
 }
@@ -156,8 +151,6 @@ nav{
     opacity: 80%;
 }
 
-
-
 .bulbcontainer{
     display: flex;
     flex-direction: column;
@@ -169,6 +162,24 @@ nav{
     margin-right: 200px;
 }
 
+/* Test */
+.bulbcontainer::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #fff;
+    position: absolute;  
+    top: 520px;
+    left: 1000px;
+}
+
+/* testend */
+
+
+
 .bulbcontainer>*{
     margin-top: 15px;
     margin-left: 20px;
@@ -178,4 +189,53 @@ nav{
     color: #fff;
     font-weight: 500;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .hamberger{
+        display: block;
+    }
+
+    .nav-items, .uline::after{
+        display: none;
+    }
+
+    .body_1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .heading{
+        margin: 0;
+    }
+
+    .body_2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    .bulbcontainer{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:800px){
+    .heading{
+        text-align: center;
+    }
+
+    .body_2{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bulbcontainer{
+        margin-bottom: 50px;
+    }
+
 }

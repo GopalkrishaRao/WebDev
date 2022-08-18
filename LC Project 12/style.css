@@ -16,7 +16,6 @@ nav{
     align-items: center;
 }
 
-
 nav img{
     height: 40px;
 }
@@ -26,7 +25,6 @@ nav img{
     list-style-type: none;
     gap: 25px;
     align-items: center;
-
 }
 
 .nav-buttons a {
@@ -53,6 +51,22 @@ nav img{
     opacity: 80%;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.hambergermenu{
+    display: none;
+}
+.fa-bars{
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-bars:hover{
+    background:#fff;
+    color: #1f1f1f;
+    padding: 5px 10px;
+    transition: 0.5s;
+
 }
 
 .head-content{
@@ -97,7 +111,6 @@ nav img{
 }
 
 .fa-envelope{
-    
     display: flex;
     align-items: center;
     margin: 0 15px  0 15px;
@@ -328,7 +341,188 @@ footer{
     font-weight: 600;
 }
 
+@media screen and (max-width:1200px){
+    .hambergermenu{
+        display: block;
+    }
 
+    .nav-buttonsgroup{
+        display: none;
+    }
+
+    .head-content{
+        gap: 30px;
+    }
+
+    .hea-dontent-left>img{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .head-content-right{
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .teamhead-06{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .teamhead-06 h3{
+        width: auto;
+    }
+
+    .team-07{
+        grid-template-columns: 40% 40%;
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .head-content-right{
+        text-align: center;
+    }
+
+    .headimput{
+        align-self: center;
+    }
+
+    .hea-dontent-left>img{
+        margin-left: 0;
+        margin: auto;
+        width: auto;
+    }
+
+    .head-content-right>h1{
+        font-size: 30px;
+    }
+
+    .cd01-headader>h1{
+        width: auto;
+        justify-content: center;
+    }
+
+    .cd01-stat{
+        display: grid;
+        grid-template-columns:50% 50% ;
+        gap: 20px;
+    }
+
+    .effdesign-03, .people-05{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .digitalmarketing-04{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .effdesign-03 div h1, .digitalmarketing-04 div h1, .people-05 div h1{
+        margin: 10px auto 10px auto;
+
+    }
+
+    .team-07{
+    grid-template-columns: 50%;
+    margin-bottom: 20px;
+    }
+
+    .team-07 div img{
+        height: auto;
+    }
+
+    .team-07-01, .team-07-02, .team-07-03{
+        gap: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    
+
+    .foottag{
+        gap: 30px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:500px){
+    .hea-dontent-left>img{
+        width: 300px;
+    }
+
+    .head-content-right{
+        display: grid;
+        grid-template-columns: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .headimput{
+        width: auto;
+    }
+
+    .headimput input{
+        width: 20%;
+    }
+
+    .cd01-headader>h1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cd01-stat{
+        grid-template-columns:80% ;
+        gap: 30px;
+    }
+
+    .cd01-vidlink>iframe{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .effdesign-03 div img, .digitalmarketing-04 div img, .people-05 div img{
+        height: 250px;
+    }
+
+
+    .btn-08 button{
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .foothead{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+
+         
+    
+}
 
 
 

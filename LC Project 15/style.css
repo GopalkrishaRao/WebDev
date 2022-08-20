@@ -204,11 +204,10 @@ nav{
  /* .project_back::before{
     position: absolute;
     content: "";
-    height: 100%;
+    height: 155%;
     width: 50%;
-    top: 0;
-    left: 0;
-    background-color: orange;
+    transform: translate(10px, -298px);
+    background: #333131;
     z-index: -1;
  } */
 
@@ -219,9 +218,6 @@ nav{
     gap: 20px;
  }
 
- .projects-left {
-    /* background: orange; */
- }
  .projects-left h1{
     color: rgb(255, 3, 3);
     font-size: 60px;

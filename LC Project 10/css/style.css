@@ -132,6 +132,29 @@ nav{
     font-size: 20px;            
 }
 
+
+.pcontainer::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute; 
+    transform: translate(187px, 204px); 
+}
+
+.pcontainer::after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 4px;
+    background: #fff;
+    margin-top: 10px;
+    transform: translate(192px, 137px);
+    z-index: -1;
+}
+
+
 .button{
     padding: 15px 35px;
     background: transparent;
@@ -162,23 +185,26 @@ nav{
     margin-right: 200px;
 }
 
-/* Test */
 .bulbcontainer::before{
     content: '';
-    display: block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #fff;
-    border: 3px solid #fff;
-    position: absolute;  
-    top: 520px;
-    left: 1000px;
+    position: absolute; 
+    transform: translate(330px, 59px); 
 }
 
-/* testend */
-
-
+.bulbcontainer::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    background: #fff;
+    margin-top: 10px;
+    transform: translate(250px, 55px);
+    z-index: -1;
+}
 
 .bulbcontainer>*{
     margin-top: 15px;
@@ -194,6 +220,27 @@ nav{
 @media screen and (max-width: 1200px){
     .hamberger{
         display: block;
+    }
+
+    .pcontainer::before{
+        content: '';
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute; 
+        transform: translate(330px, 59px); 
+    }
+    
+    .pcontainer::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 80px;
+        background: #fff;
+        margin-top: 10px;
+        transform: translate(250px, 55px);
+        z-index: -1;
     }
 
     .nav-items, .uline::after{

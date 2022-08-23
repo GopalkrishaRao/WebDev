@@ -4,9 +4,386 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shofify</title>
+    <title>shofify-test-clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/387da3d41b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+            sm: '480px',
+            cs: '600px',
+            md: '768px',
+            lg: '1024px',
+            xl: '1200px',
+            
+          },
+            extend: {
+              colors: {
+                by: '#fbf7ed',
+                bw: '#ffffff',
+                fg: '#008060',
+                fb: '#000000',
+                bg: '#004c3f',
+                blg: '#f3fcf4',
+              }
+            }
+          }
+        }
+      </script>
+
+
 </head>
-<body>
+<body style="font-family:Roboto;">
+
+<header class="bg-by pt-4">
+    <nav class="flex justify-between  items-center mx-[5%]">
+        <div class="flex gap-x-7 items-center font-bold text-[#42474c]">
+            <h2>
+                <img src="./images/shopify.JPG" alt="">
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#">Start</a>
+                <i class="fa-solid fa-angle-down"></i>
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#">Sell</a>
+                <i class="fa-solid fa-angle-down"></i>
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#">Market</a>
+                <i class="fa-solid fa-angle-down"></i>
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#">Manage</a>
+                <i class="fa-solid fa-angle-down"></i>
+            </h2>
+        </div>
+        <div class="flex gap-x-7 items-center font-bold text-[#42474c]">
+            <h2 class="hidden xl:block">
+                <a href="#">Pricing</a>
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#">Learn
+                <i class="fa-solid fa-angle-down "></i>
+                </a>
+            </h2>
+            <h2 >
+                <a href="#">Log in</a>
+            </h2>
+            <h2 class="hidden xl:block">
+                <a href="#" class="text-bw px-5 py-3 rounded bg-fg hover:bg-[#035c45] hover:duration-500 font-bold">Try for free</a>
+            </h2>
+            <div class="hambergermenu xl:hidden">
+                <a href="#">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="flex flex-col items-center xl:flex-row  ">
+        <div class="ml-[80px] w-[600px] xl:w-1/2 xl:mr-[5%] ">
+            <h1 class="mt-[50px] text-[45px] text-bg font-bold">
+                The easiest way to sell <br> online in India
+            </h1>
+            <h3 class="my-[25px] text-[#6b7177] font-normal text-[20px] ">
+                Try one of the most powerful platforms on the market for free. No technical knowledge needed.
+            </h3>
+            <div class="flex gap-x-4">
+                <input type="email" placeholder="Enter your email address"  class="px-5 py-3 rounded w-[350px] border-[1px] border-solid border-black ">
+               
+                <a href="#" class="text-bw px-5 py-3 rounded bg-fg hover:bg-[#035c45] hover:duration-500 font-bold">
+                    Try for free
+                </a>
+            </div>
+            <h4 class="my-[25px] text-[15px]">
+                Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.
+            </h4>
+        </div>
+        <div class="xl:w-1/2">
+            <img src="./images/imgheader.webp" alt="img">
+        </div> 
+    </div>
+</header>
+<div class="bg-bg text-bw py-[50px]">
+    <div class="ml-[80px]">
+        <h1 class="text-[35px] font-normal">
+            Bring your business online
+        </h1>
+        <h4 class="my-[30px] text-[18px] font-normal">
+            Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.
+        </h4>
+        <h3>
+            <a href="#" class="text-[16px] font-medium">
+                Explore more examples <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </h3>
+    </div>
+    <div class="mx-[80px] my-[80px] flex justify-between gap-5">
+        <div class="">
+            <img src="./images/Business_online/bo1.webp" alt="img" class="w-[267px]" >
+            <h3 class="text-[16px] font-medium mt-[18px] mb-[10px]"> 
+                <a href="#">
+                    FOOD & DRINK
+                </a> 
+            </h3>
+            <h3 class="text-[18px] font-light">
+                Blue Tokai
+            </h3>
+        </div>
+        <div class="">
+            <img src="./images/Business_online/bo2.webp" alt="img" class="w-[267px]" >
+            <h3 class="text-[16px] font-medium mt-[18px] mb-[10px]"> 
+                <a href="#">
+                    JEWELRY
+                </a> 
+            </h3>
+            <h3 class="text-[18px] font-light">
+                Quirksmith
+            </h3>
+        </div>
+        <div class="">
+            <img src="./images/Business_online/bo3.webp" alt="img" class="w-[267px]" >
+            <h3 class="text-[16px] font-medium mt-[18px] mb-[10px]"> 
+                <a href="#">
+                    ELECTRONICS
+                </a> 
+            </h3>
+            <h3 class="text-[18px] font-light">
+                Crossbeats
+            </h3>
+        </div>
+        <div class="">
+            <img src="./images/Business_online/bo4.webp" alt="img" class="w-[267px]" >
+            <h3 class="text-[16px] font-medium mt-[18px] mb-[10px]"> 
+                <a href="#">
+                    BEAUTY
+                </a> 
+            </h3>
+            <h3 class="text-[18px] font-light">
+                Mcaffeine
+            </h3>
+        </div>
+        <div class="">
+            <img src="./images/Business_online/bo5.webp" alt="img" class="w-[267px]" >
+            <h3 class="text-[16px] font-medium mt-[18px] mb-[10px]"> 
+                <a href="#">
+                    FASHION
+                </a> 
+            </h3>
+            <h3 class="text-[18px] font-light">
+                Bunaai
+            </h3>
+        </div>
+    </div>
+    <div class="mx-[80px] my-[80px] ">
+        <div class="">
+            <h1 class="text-[35px] font-normal ">
+                Take the best path forward
+            </h1>
+        </div>
+        <div class="mt-[50px] flex justify-between gap-5">
+            <div  class="w-1/4">
+                <img src="./images/Business_online/b1.JPG" alt="#">
+                <h3 class="text-[18px] font-medium mt-[18px] mb-[10px]"> 
+                    Start an online business 
+                </h3>
+                <h3 class="text-[16px] font-light">
+                    Create a business, whether you’ve got a fresh idea or are looking for a new way to make money.
+                </h3>
+            </div>
+            <div  class="w-1/4">
+                <img src="./images/Business_online/b2.JPG" alt="#">
+                <h3 class="text-[18px] font-medium mt-[18px] mb-[10px]"> 
+                    Move your business online
+                </h3>
+                <h3 class="text-[16px] font-light">
+                    Turn your retail store into an online store and keep serving customers without missing a beat.
+                </h3>
+            </div>
+            <div  class="w-1/4">
+                <img src="./images/Business_online/b3.JPG" alt="#">
+                <h3 class="text-[18px] font-medium mt-[18px] mb-[10px]"> 
+                    Switch to Shopify
+                </h3>
+                <h3 class="text-[16px] font-light">
+                    Bring your business to Shopify, no matter which ecommerce platform you’re currently using.
+                </h3>
+            </div>
+            <div  class="w-1/4">
+                <img src="./images/Business_online/b4.JPG" alt="#">
+                <h3 class="text-[18px] font-medium mt-[18px] mb-[10px]"> 
+                    Hire a Shopify expert
+                </h3>
+                <h3 class="text-[16px] font-light">
+                    Get set up with the help of a trusted freelancer or agency from the Shopify Experts Marketplace.
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- bodysection -->
+<div class="bg-bw py-[100px]">
+    <div class="text-center mb-[60px]">
+        <h1 class="text-[45px] font-normal">
+            With you wherever you’re going
+        </h1>
+        <h4 class="my-[30px] text-[20px] font-normal text-[#6b7177]">
+            One platform with all the ecommerce and point of sale features  <br> you need to start, run, and grow your business.
+        </h4>
+
+    </div>
+    <div class="mx-[80px]">
+        <div class="flex items-center justify-around mt-[50px]">
+            <div class="w-1/2">
+                <img src="./images/bodysection/bi1.JPG" alt="img">
+            </div>
+            <div class="w-1/3 ml-[40px]">
+                <h1 class="text-[32px] font-normal">
+                    Sell everywhere
+                </h1>
+                <h4 class="my-[25px] text-[18px] font-normal text-[#6b7177]">
+                    Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.
+                </h4>
+                <h3>
+                    <a href="#" class="text-[18px] text-[#008060] font-medium">
+                        Explore ways to sell <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </h3>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-around mt-[50px]">
+            <div class="w-1/2 ml-[40px]">
+                <h1 class="text-[32px] font-normal ">
+                    Market your business
+                </h1>
+                <h4 class="my-[25px] text-[18px] font-normal text-[#6b7177]">
+                    Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.
+                </h4>
+                <h3>
+                    <a href="#" class="text-[18px] text-[#008060] font-medium">
+                        Explore how to market your business <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </h3>
+            </div>
+            <div class="w-1/2">
+                <img src="./images/bodysection/bi2.webp" alt="img">
+            </div>
+        </div>
+
+        <div class="flex items-center justify-around mt-[50px]">
+            <div class="w-1/2">
+                <img src="./images/bodysection/bi3.JPG" alt="img">
+            </div>
+            <div class="w-1/3 ml-[40px]">
+                <h1 class="text-[32px] font-normal ">
+                    Manage everything
+                </h1>
+                <h4 class="my-[25px] text-[18px] font-normal text-[#6b7177]">
+                    Gain the insights you need to grow—use a single dashboard to manage orders, shipping, and payments anywhere you go.
+                </h4>
+                <h3>
+                    <a href="#" class="text-[18px] text-[#008060] font-medium">
+                        Explore how to manage your business <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of body -->
+<div class="bg-[#f3fcf4] py-[120px]">
+    <h1 class="text-[32px] font-normal mx-[80px]  text-[#175a67] mb-[40px]">
+        Explore more from Shopify in India
+    </h1>
+    <div class="mx-[80px] bg-bw flex justify-between items-center gap-10">
+        <div class="w-1/2 ml-[30px] ">
+            <h3>
+                <a href="#" class="text-[14px] text-tb font-extrabold">
+                    START  
+                </a>
+            </h3>
+            <h1 class="text-[28px] font-normal ">
+                Launch your store with the help of a Shopify Expert
+            </h1>
+            <h4 class="my-[25px] text-[17px] font-normal text-[#6b7177]">
+                Find hundreds of experts from India ready to help you get your store up and running, from choosing a theme to building a fully customized site.
+            </h4>
+            <h3>
+                <a href="#" class="text-[17px] text-[#008060] font-medium">
+                    Browse Experts in India 
+                     <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </h3>
+        </div>
+        <div  class="w-1/2">
+            <img src="./images/bodysection/bi4.webp" alt="img">
+        </div>
+    </div>
+</div>
+
+<div class="bg-bw py-[50px] mx-[80px]">
+    <h1 class="text-[32px] font-normal  text-tb mb-[40px]">
+        Empowering independent business <br> owners everywhere
+    </h1>
+    <h1 class="text-[25px] font-normal  text-tb mb-[40px]">
+        Millions of businesses in 
+        <span class="font-bold"> 175 countries </span>
+        around the world have <br> made over 
+        <span class="font-bold"> $496 billion USD </span>
+        in sales using Shopify.
+    </h1>
+    <h3>
+        <a href="#" class="text-[17px] text-[#008060] font-medium">
+            Learn more about Shopify  
+             <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </h3>
+</div>
+
+<!-- globe -->
+<div class="bg-bw py-[50px] mx-[80px] flex justify-center">
+    <img src="./images/globe.png" alt="globe" class="h-[800px]">
+</div>
+<!-- gloebe end -->
+<div >
+    <div class="mx-[80px]">
+        <div class="flex  bg-[#002e25] ">
+            <div class="w-1/2">
+                <img src="./images/i1.jpg" alt="img">
+            </div>
+            <div class="w-1/2 flex flex-col items-center justify-center text-center">
+                <h1 class="text-[26px] font-normal mt-[30px]  text-bw w-[400px]">
+                    “Shopify was my knight in shining armor when I exhausted every other possibility of getting my online store up and running. It was stunningly easy to use, with more features and plug-ins that I didn’t even know I wanted.”
+                </h1>
+                <img src="./images/i2.png" alt="img" class="w-[100px] my-[30px]">
+                <h1 class="text-[20px] font-normal mx-[80px]  text-bw mb-[40px]">
+                    Alicia | Alicia Souza
+                </h1>
+            </div>
+        </div>
+        <div class="flex justify-between my-[60px]">
+            <img src="./images/brands/b1.png" alt="img">
+            <img src="./images/brands/b2.png" alt="img">
+            <img src="./images/brands/b3.png" alt="img">
+            <img src="./images/brands/b4.webp" alt="img">
+            <img src="./images/brands/b5.webp" alt="img">
+            <img src="./images/brands/b6.png" alt="img">
+            <img src="./images/brands/b7.png" alt="img">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
     
 </body>
 </html>

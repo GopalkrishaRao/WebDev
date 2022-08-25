@@ -1,4 +1,91 @@
-.container-1{
-    background-image: url("../images/container-1/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg");
+@media screen and (min-width:1200px){
+
+    .cot_1{
+        background-image: url("../images/container-1/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;   
+    }
+
+    .cot_2{
+        background-image: url("../images/container-1/cont-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh; 
+    }
+    .cot_3{
+        background-image: url("../images/container-1/cont-3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh; 
+    }
+
+    .cot_4{
+        background-image: url("../images/container-1/cont-4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+    }
+    .cot_5{
+        background-image: url("../images/container-1/cont-5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .cot_6{
+        background-image: url("../images/container-1/cont-6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
 }
 
+.r_1{
+    background-image: url("../images/Roadrange/r_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.r_2{
+    background-image: url("../images/Roadrange/r_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.r_3{
+    background-image: url("../images/Roadrange/r_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.r_4{
+    background-image: url("../images/Roadrange/r_4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .container_2{
+        background: linear-gradient(to right, #c7c7c7, #aeaeae);
+    }
+}

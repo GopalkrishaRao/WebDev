@@ -1,24 +1,26 @@
 
 # **Gopalkrishna Rao**
 
-## This is a clone of **`rode.com`** made with html and tailwind css. The purpose of making this project is to learn and practice tailwindcss.
-#
+## This is a clone of **`paytm.com`** made with html and tailwind css. This project is made with an intension to explore and learn tailwind css.
+# 
 
-## Live class projcet-Rode_clone
+
+
+## Live class projcet-Paytm_clone
 ![preview](./screenshot/Capture.JPG)
-![preview](./screenshot/responsive1.JPG)
+![preview](./screenshot/responsive.JPG)
 ![preview](./screenshot/img1.JPG)
 ![preview](./screenshot/img2.JPG)
 ![preview](./screenshot/img3.JPG)
 ![preview](./screenshot/img4.JPG)
 ***
-## - [Netlify](https://lcproject-rodeclone.netlify.app/) -deployed link
+## - [Netlify](https://lcproject-paytmclone.netlify.app/) -deployed link
 
-## -  [Github](https://github.com/GopalkrishaRao/WebDev/tree/main/Rode_clone) Source code
+## -  [Github](https://github.com/GopalkrishaRao/WebDev/tree/main/Paytm-clone) Source code
 
 ## -  [FindCoder.io](https://www.findcoder.io/u/hrgkrao) -Profile 
 
-## -Approximate time taken to complete projct **12 hours!**
+## -Approximate time taken to complete projct **2 days!**. I know it took too long  to complete. Im new to coding and trying to learn.
 
 # __Learnings from the project__
 
@@ -33,6 +35,7 @@
 ## - You can drop a mail @  **`hrgkrao@gmail.com `**
 ## -  Get connected on [Linkedin](https://www.linkedin.com/in/h-r-gopalkrishna-rao-a2830216b/)
 #
+
 
 
 

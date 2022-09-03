@@ -1,7 +1,7 @@
 
 # **Gopalkrishna Rao**
 
-## This is a clone of **`paytm.com`** made with html and tailwind css. This project is made with an intension to explore and learn tailwind css.
+## This is a clone of **`paytm.com`** made with html and tailwind css. This project is made with an intention to explore and learn tailwind css.
 # 
 
 

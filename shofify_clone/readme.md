@@ -1,7 +1,7 @@
 
 # **Gopalkrishna Rao**
 
-## This is a clone of **`shopify.in`** made with html and tailwind css. The goal of making this project is to learn and experience of tailwindcss.
+## This is a clone of **`shopify.in`** made with html and tailwind css. The goal of making this project is to learn and practice tailwindcss.
 #
 
 ## Live class projcet-Shopigy_clone

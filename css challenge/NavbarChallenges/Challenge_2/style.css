@@ -14,18 +14,27 @@ body ul{
     margin: 0;
     list-style: none;
     position: relative;
+    display: flex;
+    justify-content: center;
     
 }
 
 body ul li{
     display:inline-block;
     background-color: #474747;
+    padding: 0px 50px 0px 50px;
+}
+
+body ul li:hover {
+    background-color:bisque; 
+    cursor: pointer;
+    
 }
 
 body a{
     display: block;
   padding:0 10px; 
-  color:#FFF;
+  color:#fff;
   font-size:20px;
   line-height: 60px;
   text-decoration:none;

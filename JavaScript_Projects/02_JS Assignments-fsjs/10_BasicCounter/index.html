@@ -20,6 +20,50 @@
   </body>
 
   <script>
-    //write code here
+    let initialCount = 0;
+    document.querySelectorAll("#number")[0].textContent = initialCount;
+    let decBtn = document.querySelectorAll("button")[0];
+    decBtn.style.fontSize="30px";
+    decBtn.style.cursor="pointer";
+   
+// decrease funtion
+    function decrease() {
+      document.querySelectorAll("#number")[0].textContent = decFun()
+    }
+   function decFun(){
+      initialCount = initialCount - 1;
+      return initialCount;
+    }
+
+    let incrBtn = document.querySelectorAll("button")[1];
+    incrBtn.style.cursor="pointer";    
+    document.querySelectorAll("button")[1].style.fontSize="30px";
+
+    // increase function
+   
+  function increase() {
+    document.querySelectorAll("#number")[0].textContent = incFun()
+  };
+  function incFun(){
+    initialCount = initialCount + 1;
+    return initialCount
+  }
+
+  // reset button
+  let resetButton = document.createElement("button");
+  resetButton.textContent = "Reset";
+  document.getElementsByClassName("container")[0].appendChild(resetButton);
+  document.querySelectorAll("button")[2].setAttribute("class" , "reset");
+  document.getElementsByClassName("reset")[0].style.width="100%" ;
+  document.getElementsByClassName("reset")[0].style.fontSize="20px"
+  document.getElementsByClassName("reset")[0].addEventListener("click", restFunction);
+  function restFunction(){
+   initialCount = 0;
+    document.getElementById("number").textContent = initialCount
+  };
+
+  
+    
+
   </script>
 </html>

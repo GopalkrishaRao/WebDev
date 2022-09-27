@@ -14,6 +14,14 @@
     </div>
   </body>
   <script>
-    // write code here
+    
+    let count = 0;
+    function increase(){
+      count = count + 1;
+      document.querySelectorAll("#counter")[0].textContent = count;
+    }
+
+    document.querySelectorAll("h4")[0].style.fontSize = "30px";
+    document.querySelectorAll("button")[0].style.cursor="pointer";
   </script>
 </html>

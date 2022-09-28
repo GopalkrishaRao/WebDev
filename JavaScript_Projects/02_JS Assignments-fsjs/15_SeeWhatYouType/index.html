@@ -16,6 +16,15 @@
     </div>
   </body>
   <script>
-    //code here
+      function update(){
+      let x = document.getElementById("input").value;
+      document.querySelectorAll("h3")[0].innerText="Your Text : " + x;
+      
+      if (x.length>=1){
+      document.querySelectorAll("#output")[0].style.color= "#fff"
+     }
+    }
+
+
   </script>
 </html>

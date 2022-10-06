@@ -1,17 +1,19 @@
-const container;
-const error;
+// const container;
+// const error;
 
-function getAge(){
+// function getAge(){
     
     
-}
+// }
 
-function calcAge(){ 
+// function calcAge(){ 
     
-}
+// }
 
-function displayAge(){
+// function displayAge(){
     
     
-}
+// }
 
+let dob = document.getElementById("dob").value
+let today = new Date()

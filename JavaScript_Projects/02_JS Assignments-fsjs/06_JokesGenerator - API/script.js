@@ -4,17 +4,13 @@ let randomJoke= ()=>{fetch("https://api.chucknorris.io/jokes/random")
 })
 .then((data)=>{
     var joke = data.value;
-    x.push(joke) 
-    return joke
+    return document.getElementById("joke").innerText=joke
 })
 }
-let x =[]
 
 document.getElementById("jokeBtn").addEventListener("click", addJoke)
 
 function addJoke(){
-
    randomJoke()
-    document.getElementById("joke").innerText = x
 };
 

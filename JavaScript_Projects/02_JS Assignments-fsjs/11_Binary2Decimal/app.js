@@ -1,14 +1,21 @@
+document.querySelector(".btn").addEventListener("submit", convert);
+let binaryInput = document.getElementById("binary").value;
 
-let binayInput = document.getElementById("binary").value;
 
-// document.querySelectorAll(".btn")[0].addEventListener("click", convert)
+
 
 function convert(){
-    let arrayBinayr = binayInput.split("");
+    // document.querySelector(".btn").addEventListener("click",function (pd){
+    //     pd.preventDefault();
+    // });
+ 
+
+    
+    let arrayBinary = binaryInput.split("");
     let binaryCode = [];
-    for(i=0; i<arrayBinayr.length; i++){
-        binaryCode.push(+arrayBinayr[i])
-    }
+    for(i=0; i<arrayBinary.length; i++){
+        binaryCode.push(+arrayBinary[i])
+    };
 
     binaryCode.reverse();
     let decimalNumber = 0;
@@ -16,12 +23,7 @@ function convert(){
     for (i=0; i<binaryCode.length; i++){
         decimalNumber = decimalNumber + (2**i)*binaryCode[i];
     };
-   
-    document.querySelectorAll(".result")[0].innerText= `Decimal Number : ${decimalNumber}`
+    document.querySelectorAll(".result")[0].innerText= `Decimal Number : ${decimalNumber}`;
 
-};
-
-
-
-
-
+}; 
+convert()

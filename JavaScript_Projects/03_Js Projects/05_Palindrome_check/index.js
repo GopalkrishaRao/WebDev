@@ -1,7 +1,16 @@
-let inputArray = [0113];
-// let outputArray = inputArray.reverse();
-let y = inputArray.split(" ")
-// console.log(outputArray);
+document.getElementById("checkbtn").addEventListener("click", check)
 
-// console.log(inputArray.reverse());
-console.log(y);
+function check(){
+let inputString = document.getElementById("input_area").value;
+let reverseSting = inputString.split("").reverse().join("");
+
+if(inputString== ""){
+    alert("Please enter a value")
+}
+else if(inputString==reverseSting){
+    document.getElementById("result").innerText= `${inputString} is a Palindrome !!`
+}
+else{
+    document.getElementById("result").innerText= `${inputString} is not a Palindrome !!`
+};
+}

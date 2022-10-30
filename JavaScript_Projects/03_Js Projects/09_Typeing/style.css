@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body1{
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.time{
+    height: 10vh;
+    background: orange;
+}
+
+input{
+   height: 5vh;
+   width: 100vw;
+   font-size: 20px;
+}
+
+.output{
+    background: blanchedalmond;
+    height: 40vh;
+    width: 80vw;
+    border: 2px solid #1f1f1f;
+    border-radius: 8px;
+    margin-inline: auto;
+}

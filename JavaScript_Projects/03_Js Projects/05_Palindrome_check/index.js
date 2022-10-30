@@ -13,4 +13,4 @@ else if(inputString==reverseSting){
 else{
     document.getElementById("result").innerText= `${inputString} is not a Palindrome !!`
 };
-}
+};

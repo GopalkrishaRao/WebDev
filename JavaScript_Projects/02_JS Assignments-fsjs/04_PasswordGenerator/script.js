@@ -7,12 +7,16 @@
 // const generateEl = document.getElementById('generate');
 // const clipboardEl = document.getElementById('clipboard') ;
 
-// let passwordLength = document.getElementById('length').value;
-
-
 let passwordType=[];
+let password = []; 
 
-let password = [];
+let passwordLength = document.getElementById('length').value;
+
+for(i=0; i<passwordLength; i++){
+   console.log( Math.floor(Math.random()*passwordType.length));
+};
+
+
 
 let num = ()=>{
     return Math.floor(Math.random()*10)
@@ -29,13 +33,6 @@ let upper = ()=>{
 };
 
 let lower = ()=>{return upper().toLocaleLowerCase()};
-
-
-
-
-
-
-
 
 
 // const randomFunc = {

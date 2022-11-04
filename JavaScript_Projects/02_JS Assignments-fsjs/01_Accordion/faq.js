@@ -18,7 +18,8 @@ const faqData = [
   },
 ];
 
-const accordianBody;
+console.log(faqData);
+// const accordianBody;
 const faqs = [];
 
 function showFaq() {

@@ -1,18 +1,17 @@
-document.querySelector(".btn").addEventListener("submit", convert);
+document.getElementsByClassName("btn")[0].addEventListener("click", convert);
 let binaryInput = document.getElementById("binary").value;
-
-
-
+// let binaryInput = "10101"
 
 function convert(){
-    // document.querySelector(".btn").addEventListener("click",function (pd){
-    //     pd.preventDefault();
-    // });
- 
-
-    
     let arrayBinary = binaryInput.split("");
+
+
+    console.log(arrayBinary);
+    console.log(binaryInput);
+
+
     let binaryCode = [];
+
     for(i=0; i<arrayBinary.length; i++){
         binaryCode.push(+arrayBinary[i])
     };
@@ -25,5 +24,5 @@ function convert(){
     };
     document.querySelectorAll(".result")[0].innerText= `Decimal Number : ${decimalNumber}`;
 
+    
 }; 
-convert()

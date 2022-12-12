@@ -1,7 +1,8 @@
 let display = document.querySelector(".textview");
 let buttons = Array.from(document.getElementsByClassName("button"))
 
-console.log(buttons);
+let displayArrya =5
+display.innerHTML=displayArrya
 
 function insert(num){
   

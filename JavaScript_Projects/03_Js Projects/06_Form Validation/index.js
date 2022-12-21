@@ -5,9 +5,9 @@ let password = document.querySelector('.pass_word');
 let confirmPassword = document.querySelector('.con_pass');
 let form = document.querySelector('.inputarea');
 
-form.addEventListener("submit", (e)=>{
-    e.preventDefault()
-})
+// form.addEventListener("submit", (e)=>{
+//     e.preventDefault()
+// })
 
 let validateForm = ()=>{
     
@@ -19,10 +19,10 @@ let validateForm = ()=>{
     else{
         password.style.border= "2px solid green";
         confirmPassword.style.border= "2px solid green";
-        setTimeout(()=>{
-            alert("Form has been submitted")
-            form.submit()
-        }, 2000)
+        // setTimeout(()=>{
+        //     alert("Form has been submitted")
+        //     // form.submit()
+        // }, 2000)
     }
 };
 

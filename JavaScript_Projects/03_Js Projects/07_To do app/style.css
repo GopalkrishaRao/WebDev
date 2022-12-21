@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.add{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+
+container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.todo_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+s{
+    color: rgb(236, 23, 8);
+}
+.checkbox{
+    cursor: pointer;
+}
+
+.editables{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+}

@@ -11,23 +11,25 @@
     <div class="head">Form validation</div>
     <form class="inputarea">
         <div id="userName">User Name: 
-            <input type="text" placeholder="  Name" class="name">
+            <input title="Must have minmum of 3 charecters" pattern="[a-zA-Z]{3,}" type="text" placeholder="  Name" class="name" required>
         </div>
             
         <div id="emai">e-mail id: 
-            <input type="email" placeholder="  email" class="mail">
+            <input type="email"  placeholder="  email" class="mail" required>
         </div>
             
         <div id="password">Password: 
-            <input type="text" placeholder="  Password" class="pass_word">
+            <input type="password" title="Must have a Uppercase, lowercase, number and a special charector" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$" placeholder="  Password" class="pass_word viewpw" required>
         </div>
             
         <div id="password">Confirm Password:
-            <input type="password" placeholder="  Confirm password" class="con_pass">
+            <input type="password" placeholder="  Confirm password" class="con_pass viewpw" required >
+            <div id="checkbox">Show password : 
+                <input type="checkbox"  class="check">
+            </div>
         </div>
         
         <button id="signup" type="submit">Sign Up</button>
-        
     </form>
 
 

@@ -13,6 +13,12 @@ body{
     
 }
 
+.head{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
 .inputarea{
     display: flex;
     flex-direction: column;
@@ -22,6 +28,9 @@ body{
     font-size: 18px;
 }
 
+input{
+    border: 2px solid #1f1f1f;
+}
 .name{
     margin-left: 57px;
 }
@@ -46,4 +55,10 @@ button{
     font-weight: 600;
     align-self: center;
     margin-top: 20px;
+}
+
+#checkbox{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 150px;
 }

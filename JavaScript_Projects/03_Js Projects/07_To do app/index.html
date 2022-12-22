@@ -9,25 +9,28 @@
 </head>
 <body>
     <div class="title">To Do</div>
-    <button class="add" onclick="addTask()">+</button>
-    <container>
-        
-        <div class="todo_body">
-                <!-- <div class="slNo">01</div> -->
+    <div class="addToDoContainer">
+        <input type="text" class="myInput" placeholder="Add to-do">
+        <button class="add" onclick="addTask()">Add</button>
+    </div>
+    <container class="container">
+        <ol>
+            <!-- <div class="todo_body">
+                <div class="slNo">01</div>
                 <input type="checkbox" name="check" id="task_01" class="checkbox" onclick="strike()">
                 <h3 class="todo_details">
                     Things
-
                 </h3>
             </div>
-        <div class="editables">
-            <button class="star" onclick="starTask()">Star</button>
+            <div class="editables">
+            <button class="star" onclick="starTask()">
+                Star</button>
             <button class="edit" onclick="editTask()">Edit</button>
             <button class="delete" onclick="deleteTask()">Delete</button>
-        </div>
-        
-       
+            </div> -->
+        </ol>
     </container>
+    
     <script src="./index.js"></script>
 </body>
 </html>

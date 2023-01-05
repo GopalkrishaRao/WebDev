@@ -6,8 +6,6 @@
     font-family: Roboto;
 }
 
-
-
 .title{
     text-align: center;
 }
@@ -15,15 +13,6 @@
 .addToDoContainer{
     display: flex;
     justify-content: center;
-}
-.add{
-    
-}
-
-ol{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .todo_body{
@@ -39,11 +28,15 @@ s{
     cursor: pointer;
 }
 
-.editables{
-    display: flex;
-    gap: 10px;
-}
-
 button{
     cursor: pointer;
 }
+
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }

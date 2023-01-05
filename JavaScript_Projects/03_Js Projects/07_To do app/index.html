@@ -14,21 +14,27 @@
         <button class="add" onclick="addTask()">Add</button>
     </div>
     <container class="container">
-        <ol>
-            <!-- <div class="todo_body">
-                <div class="slNo">01</div>
-                <input type="checkbox" name="check" id="task_01" class="checkbox" onclick="strike()">
-                <h3 class="todo_details">
-                    Things
-                </h3>
-            </div>
-            <div class="editables">
-            <button class="star" onclick="starTask()">
-                Star</button>
-            <button class="edit" onclick="editTask()">Edit</button>
-            <button class="delete" onclick="deleteTask()">Delete</button>
-            </div> -->
-        </ol>
+        <table >
+            <tr >
+                <!-- <th >Sl.No</th> -->
+                <th colspan="4" style="width: 70%;">Task</th>
+            </tr>
+            <tr>
+                <!-- <td>01</td> -->
+                <td>
+                    <input class="check-btn" type="checkbox" onclick="taskcheck()">
+                </td>
+                <td style="width: 80%;" contenteditable="false" class="task">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                </td>
+                <td class="editbtndiv">
+                    <button class="edit-btn" onclick="edit()">Edit</button>
+                </td>
+                <td>
+                    <button class="delete-btn" onclick="delt()">Delete</button>
+                </td>
+            </tr>
+        </table>
     </container>
     
     <script src="./index.js"></script>

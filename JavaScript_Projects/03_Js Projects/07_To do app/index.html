@@ -14,17 +14,14 @@
         <button class="add" onclick="addTask()">Add</button>
     </div>
     <container class="container">
-        <table >
-            <tr >
-                <!-- <th >Sl.No</th> -->
-                <th colspan="4" style="width: 70%;">Task</th>
-            </tr>
-            <tr>
-                <!-- <td>01</td> -->
+        <table class="table">
+            <caption>Tasks</caption>
+            
+            <tr class="tablerows">
                 <td>
                     <input class="check-btn" type="checkbox" onclick="taskcheck()">
                 </td>
-                <td style="width: 80%;" contenteditable="false" class="task">
+                <td contenteditable="false" class="task">
                     <h4>Lorem ipsum dolor sit amet.</h4>
                 </td>
                 <td class="editbtndiv">

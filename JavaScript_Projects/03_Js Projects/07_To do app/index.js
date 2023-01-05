@@ -24,8 +24,10 @@ let edit = ()=>{
         function taskcheck(){
             if(chekBox.checked == true){
                 taskDetails.innerHTML=`<s>${taskDetails.innerHTML}</s>`;
-
+                editBtn.innerHTML='Edit';
+                taskDetails.contentEditable = false;
                 editBtnDiv.style.display='none'
+                // taskDetails.colSpan ='2'
             }
             else{
                 taskDetails.innerHTML=taskDetails.innerText;
@@ -35,6 +37,7 @@ let edit = ()=>{
 
 let addTask = () =>{
     let createOl =document.createElement('tr');
+    createOl.setAttribute('class','tablerows' )
     createOl.innerHTML=
     `
     <td>
@@ -50,6 +53,8 @@ let addTask = () =>{
                     <button class="delete-btn" onclick="delt()">Delete</button>
                 </td>
     `
-    document.getElementsByClassName('container')[0].appendChild(createOl);
+
+    document.getElementsByClassName('table')[0].appendChild(createOl);
+    
     addToDo.value=''
-}
+};

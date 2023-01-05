@@ -32,7 +32,15 @@ button{
     cursor: pointer;
 }
 
-table, th, td, tr {
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+table,  tr {
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -40,3 +48,30 @@ table, th, td, tr {
   tr:nth-child(even) {
     background-color: #D6EEEE;
   }
+
+  table{
+    width: 80vw;
+  }
+
+  .check-btn{
+    width: 20px;
+  }
+
+  .edit-btn{
+    width: 50px;
+  }
+
+  .delete-btn{
+    width: 50px;
+    margin-left: auto;
+  }
+
+.tablerows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tr{
+    width: 100%;
+}

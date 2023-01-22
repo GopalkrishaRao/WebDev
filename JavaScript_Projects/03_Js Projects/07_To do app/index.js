@@ -1,5 +1,5 @@
 let addBtn = document.getElementsByClassName('add')[0];
-let tableRow = document.getElementsByClassName('tablerows')[0];
+let tableRow = document.getElementsByClassName('tablerow')[0];
 let table = document.getElementsByClassName('table')[0];
 
 let addToDo = document.getElementsByClassName('myInput')[0];
@@ -44,8 +44,13 @@ let edit = ()=>{
 
 // Add task  to do list
 let addTask = () =>{
+    if(addToDo.value==''){
+        alert ("This field cannot be empty")
+
+    }
+    else{
     let createOl =document.createElement('tr');
-    createOl.setAttribute('class','tablerows' )
+    createOl.setAttribute('class','tablerow' )
     createOl.innerHTML=
     `
     <td>
@@ -63,4 +68,6 @@ let addTask = () =>{
     `
     document.getElementsByClassName('table')[0].appendChild(createOl);
     addToDo.value=''
+    }
 };
+

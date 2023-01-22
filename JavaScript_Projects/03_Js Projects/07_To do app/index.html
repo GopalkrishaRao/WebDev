@@ -16,7 +16,7 @@
     <container class="container">
         <h1>To Do List</h1>
         <table class="table">
-            <tr class="tablerows">
+            <tr class="tablerow">
                 <td>
                     <input class="check-btn" type="checkbox" onclick="taskcheck()">
                 </td>
@@ -30,9 +30,30 @@
                     <button class="delete-btn" onclick="delt()">Delete</button>
                 </td>
             </tr>
+
+
+            <!-- test 2 -->
+            <tr class="tablerow" id="" table-data="serialNumber">
+                <td>
+                    <input class="check-btn" type="checkbox" onclick="taskcheck()">
+                </td>
+                <td contenteditable="false" class="task">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                </td>
+                <td class="editbtndiv">
+                    <!-- <button class="edit-btn" onclick="edit()"> -->
+                    <button class="edit-btn" >
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button class="delete-btn" onclick="delt()">Delete</button>
+                </td>
+            </tr>
+
         </table>
     </container>
-    
-    <script src="./index.js"></script>
+<!-- <script src="./index.js"></script> -->
+<script src="./test.js"></script>
 </body>
 </html>

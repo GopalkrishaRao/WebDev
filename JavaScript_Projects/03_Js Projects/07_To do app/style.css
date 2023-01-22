@@ -45,13 +45,15 @@ table,  tr {
     border-collapse: collapse;
   }
   
-  tr:nth-child(even) {
+  tr:nth-child(odd) {
     background-color: #D6EEEE;
   }
 
   table{
     width: 80vw;
-  }
+    border-collapse: collapse;
+}
+  
 
   .check-btn{
     width: 20px;
@@ -74,4 +76,10 @@ table,  tr {
 
 .tr{
     width: 100%;
+}
+
+.task{
+  margin-right: auto;
+  margin-left: 10px;
+  width: 100%;
 }

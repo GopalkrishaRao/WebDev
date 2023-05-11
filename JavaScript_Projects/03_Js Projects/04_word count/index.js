@@ -8,21 +8,20 @@ function wordCount() {
     document.getElementsByClassName('wordcount')[0].style.display='block';
     document.getElementsByClassName('clickcalculate')[0].style.display='none';
 
+    let valueString=text.value.trim()
 
-    if(text.value == ''|| text.value==' '){
-        count.innerHTML='00'
+    if(valueString == null || valueString =="" ){
+        count.innerHTML="00"
     }
-    
-    else if(text.value[text.value.length-1]== ' '){
-        count.innerHTML==count.innerHTML
-    }
+
     else{
-        count.innerHTML=text.value.split(" ").length
-    };
+        count.innerHTML=valueString.split(" ").filter(element => element !== '').length
+    }
+
     if(count.innerHTML>=1 && count.innerHTML <=9 && count.innerHTML!=0 ){
-        count.innerHTML='0'+count.innerHTML;
-    };
-  }
+    count.innerHTML='0'+count.innerHTML;
+            };
+}
 
   calculateBtn.addEventListener('click', wordCount)
 
@@ -34,5 +33,4 @@ clearBtn.addEventListener('click', ()=>{
 })
 
 
-  
   

@@ -650,7 +650,7 @@ Number of days in the given month is 29
     ```
 
 #
-// 25. In the following shopping cart add, remove, edit items
+25. In the following shopping cart add, remove, edit items
 
 ```
   const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']

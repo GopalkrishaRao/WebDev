@@ -1,11 +1,4 @@
 # JavaScript Assignments
-
-## 20 DOM Assignments
-
-* [Link to Answer.md file ](https://github.com/GopalkrishaRao/WebDev/blob/main/JavaScript_Projects/01_Javascript_DOM_Assignments/DOM_assignment_answer.md)
-* [Link to DOM assignment folder](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/01_Javascript_DOM_Assignments)
-
-#
 ## JavaScript Questions Based on Arrays
 * [Link to Answer .md file](https://github.com/GopalkrishaRao/WebDev/blob/main/JavaScript_Projects/JS%20Assignments/Js%20%20question/JsQuesionsAndAnswers.md)
 * [Link to questions and answer Folder](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/JS%20Assignments/Js%20%20question)
@@ -25,8 +18,19 @@
 | 07      | Rock Paper Scissor       | [Deployed Link](https://rock-paper-scissor-46940e.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/05_RockPaperScissor)   |  
 | 08      | Joke Generator- API      | [Deployed Link](https://joke-generator-api-b17a30.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/06_JokesGenerator%20-%20API)   |  
 | 09      | Basic Counter       | [Deployed Link](https://basic-counter-67dc04.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/10_BasicCounter)   |  
-| 12      | See What You Type      | [Deployed Link](https://see-what-you-type-2900.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/15_SeeWhatYouType)   |  
+| 12      | See What You Type      | [Deployed Link](https://see-what-you-type-2900.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/15_SeeWhatYouType)   |
+| 13      | Word Count       | [Deployed Link](https://word-count-28c9e0.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/03_Js%20Projects/04_word%20count)   |  
+| 14      | Password Generator       | [Deployed Link](https://password-generator-0a4b74.netlify.app/) | [Source Code](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/02_JS%20Assignments-fsjs/04_PasswordGenerator)   |
 
+<!-- | 10      | Calculator       | [Deployed Link]() | [Source Code]()   |  
 | 10      | Calculator       | [Deployed Link]() | [Source Code]()   |  
-| 10      | Calculator       | [Deployed Link]() | [Source Code]()   |  
-| 10      | Calculator       | [Deployed Link]() | [Source Code]()   |  
+| 10      | Calculator       | [Deployed Link]() | [Source Code]()   |   -->
+
+#
+
+## 20 DOM Assignments
+
+* [Link to Answer.md file ](https://github.com/GopalkrishaRao/WebDev/blob/main/JavaScript_Projects/01_Javascript_DOM_Assignments/DOM_assignment_answer.md)
+* [Link to DOM assignment folder](https://github.com/GopalkrishaRao/WebDev/tree/main/JavaScript_Projects/01_Javascript_DOM_Assignments)
+
+

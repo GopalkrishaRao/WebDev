@@ -1,38 +1,36 @@
 const resultEl = document.getElementById('result');
-// const lengthEl = document.getElementById('length');
 const uppercaseEl = document.getElementById('uppercase');
 const lowercaseEl = document.getElementById('lowercase');
 const numbersEl = document.getElementById('numbers');
 const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
-// const clipboardEl = document.getElementById('clipboard') ;
+const clipboardEl = document.getElementById('clipboard') ;
+
 
 generateEl.addEventListener("click", gneratePassword)
 
 function gneratePassword(){
+      // required length of password
+      let passwordLength = document.getElementById('length').value;
+
+
     // chech what charects must include in password
     let passwordIncluedes=[];
+ 
 
     if(uppercaseEl.checked==true){
-        passwordIncluedes.push("upperCase")
+        passwordIncluedes.push(0)
     };
     if(lowercaseEl.checked==true){
-        passwordIncluedes.push("lowerCase")
+        passwordIncluedes.push(1)
     };
     if(numbersEl.checked==true){
-        passwordIncluedes.push("number")
+        passwordIncluedes.push(2)
     };
     if(symbolsEl.checked==true){
-        passwordIncluedes.push("symbols")
+        passwordIncluedes.push(3)
     };
-
-    // required length of password
-    let passwordLength = document.getElementById('length').value;
-    
-    let random = []
-    for(i=0; i<passwordLength; i++){
-    random.push(Math.floor(Math.random()*passwordIncluedes.length));
-    };
+ 
 
     // functions to generate number, upper and lowercase and symbols
 
@@ -55,23 +53,52 @@ function gneratePassword(){
 
     // Password generation
     let password = []
-    for(i=0; i<random.length; i++){
-        if(random[i]==0){
+    for(i=0; i<passwordLength; i++){
+
+        let x;
+        x=Math.floor(Math.random()*passwordIncluedes.length)
+        console.log(x);
+
+        if(passwordIncluedes[x]==0){
             password.push(upper())
         }
-        else if (random[i]==1){
+        else if (passwordIncluedes[x]==1){
             password.push(lower())
         }
-        else if (random[i]==2){
+        else if (passwordIncluedes[x]==2){
             password.push(num())
         }
-        else{
+        else if(passwordIncluedes[x]==3){
             password.push(symbol())  
         }
+        else{
+            alert ("Please check atlist one type")
+            lowercaseEl==checked
+        }
+
     };
     resultEl.innerText=password.join("")
+};
+
+
+
+const copyText = ()=>{
+  // Create a range object
+  var range = document.createRange();
+  range.selectNode(resultEl);
+
+  // Select the text within the range
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(range);
+
+  // Copy the selected text to the clipboard
+  document.execCommand("copy");
+
+    // Clear the selection
+    window.getSelection().removeAllRanges();
 }
 
-
+// copy password
+clipboardEl.addEventListener('click', copyText);
 
 document.body.style.color="#1f1f1f"
